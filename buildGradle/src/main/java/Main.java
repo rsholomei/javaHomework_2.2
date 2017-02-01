@@ -18,8 +18,7 @@ public class Main {
             figure.calculateArea();
             figure.calculatePerimeter();
             System.out.println(figure.resultAfterCalculation());
-        }catch (Exception e)
-        {
+        }catch (Exception e) {
             System.err.println("Параметр фігури не може містити літер: " + e.getClass());
         }
     }
